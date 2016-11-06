@@ -5,7 +5,7 @@ FaceBookページ等に登録したWebHookを受け取りごにょごにょす�
 1. facebookアプリを作成(デベロッパーモードだとWebHookは受け取れないので注意)
 1. Graph ExplorerでウォッチしたいPageのTokenを生成
 1. Graph ExplorerをPOSTリクエストに変更し,
-[リクエストフォーマット]|(https://developers.facebook.com/docs/graph-api/reference/v2.8/app/subscriptions/)をセットして`{page_id}/subscribed_apps`にリクエストする。（対象ページのAdmin権限を保持している必要がある)
+[リクエストフォーマット](https://developers.facebook.com/docs/graph-api/reference/v2.8/app/subscriptions/)をセットして`{page_id}/subscribed_apps`にリクエストする。（対象ページのAdmin権限を保持している必要がある)
 
 | KEY | VALUE |
 |:----------|----------:|
