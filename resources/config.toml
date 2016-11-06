@@ -1,0 +1,10 @@
+[server]
+# Only Developing set to "debug" mode.
+# if you want to release, switch to "release" mode in production.
+gin_mode = "debug"
+listen_port = "8080"
+
+[facebook]
+verify_token = "your webhook verify token"
+app_id = "your app id"
+app_secret = "your app secret"
