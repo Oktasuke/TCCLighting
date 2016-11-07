@@ -8,7 +8,7 @@ FaceBookページ等に登録したWebHookを受け取りごにょごにょす�
 [リクエストフォーマット](https://developers.facebook.com/docs/graph-api/reference/v2.8/app/subscriptions/)をセットして`{page_id}/subscribed_apps`にリクエストする。（対象ページのAdmin権限を保持している必要がある)
 
 | KEY | VALUE |
-|:----------|----------:|
+|:----------|:----------|
 | object | page |
 | callback_url | このアプリをデプロイした環境のURL |
 | fields | [checkins,feed] |
