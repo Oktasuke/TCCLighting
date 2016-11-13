@@ -2,11 +2,11 @@ package models
 
 import "fmt"
 
-func NewFBWebhookJson() FBWebhookJson {
-	return FBWebhookJson{}
+func NewfacebookReq() facebookReq {
+	return facebookReq{}
 }
 
-type FBWebhookJson struct {
+type facebookReq struct {
 	Entry  []Entry `json:"entry"`
 	Object string  `json:"object"`
 }

@@ -1,10 +1,18 @@
-[server]
+[ServerInfo]
 # Only Developing set to "debug" mode.
 # if you want to release, switch to "release" mode in production.
 gin_mode = "debug"
 listen_port = "8080"
 
-[facebook]
+[ShopInfo]
+opening_time = "00:10"
+closing_time = "23:59"
+
+[WeMoInfo]
+location = "127.0.0.1"
+port = "8080"
+
+[FacebookInfo]
 verify_token = "your webhook verify token"
 app_id = "your app id"
 app_secret = "your app secret"
